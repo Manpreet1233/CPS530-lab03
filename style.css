@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+  }
+body {
+    margin: 0; 
+    background: #eddcd2;
+    max-width: 100%;
+}
+
+.btn {
+    margin-top: 10px;
+}
+.mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.heading {
+    text-align: center;
+}
+.student-info {
+    text-align: center;
+}
+.img-responsive {
+    width: 20%;
+    height: auto;
+}
+@media only screen and (max-width: 479px){
+    .img-responsive { 
+        width: 50%;
+    }
+  }
+
